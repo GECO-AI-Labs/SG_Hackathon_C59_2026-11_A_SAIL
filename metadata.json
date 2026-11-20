@@ -1,0 +1,6 @@
+{
+  "name": "SAIL Maritime AI Intelligence",
+  "description": "Production-grade maritime market intelligence, fleet capacity scenario planning, multi-collection Zilliz vector RAG, and MLflow tracing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

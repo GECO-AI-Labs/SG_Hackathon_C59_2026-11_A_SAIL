@@ -1,0 +1,55 @@
+{
+  "seeded": true,
+  "shortcuts": [
+    {
+      "id": "shortcut-default-4",
+      "numericId": 1122097248542558,
+      "title": "Drewry WCI Index & Port Throughput",
+      "desc": "Correlate composite freight indices against monthly container TEU statistics.",
+      "query": "Assess recent Drewry WCI container index movements against regional port container throughput statistics.",
+      "icon": "Layers",
+      "createdAt": 1794540417165,
+      "updatedAt": 1794540417165
+    },
+    {
+      "id": "shortcut-default-1",
+      "numericId": 1116904716969789,
+      "title": "Intra-Asia Freight vs Feeder Capacity",
+      "desc": "Analyze spot rates, bunker price moderations, and feeder tightness in Southeast Asia.",
+      "query": "Analyze intra-Asia container spot rates versus feeder vessel capacity deployment across Southeast Asian lanes.",
+      "icon": "TrendingUp",
+      "createdAt": 1794540417162,
+      "updatedAt": 1794540417162
+    },
+    {
+      "id": "shortcut-default-3",
+      "numericId": 1113442939773975,
+      "title": "1,800 TEU Bangkok max Charter Economics",
+      "desc": "Model feeder chartering economics, port turnarounds, and route capital risks.",
+      "query": "Evaluate chartering economics for a 1,800 TEU Bangkokmax feeder vessel for a Singapore-Jakarta-Belawan rotation.",
+      "icon": "Anchor",
+      "createdAt": 1794540417164,
+      "updatedAt": 1794546711043
+    },
+    {
+      "id": "shortcut-default-2",
+      "numericId": 1111712051176068,
+      "title": "Straits of Malacca AIS Vessel Congestion",
+      "desc": "Examine real-time vessel speeds, anchorage waiting, and daily transit volumes.",
+      "query": "Check real-time AIS vessel congestion, speeds, and anchorage wait times in the Singapore and Malacca Straits.",
+      "icon": "Ship",
+      "createdAt": 1794540417163,
+      "updatedAt": 1794540417163
+    },
+    {
+      "id": "shortcut-1794546658807-mb9o0",
+      "numericId": 6594204642902352,
+      "title": "Singapore Cargo",
+      "desc": "What is the singapore cargo throughput trend for the past year.",
+      "query": "What is the singapore cargo throughput trend for the past year.",
+      "icon": "TrendingUp",
+      "createdAt": 1794546658807,
+      "updatedAt": 1794546658807
+    }
+  ]
+}

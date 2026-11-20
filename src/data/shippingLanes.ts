@@ -1,0 +1,117 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { ShippingLane } from '../types.js';
+
+export const SOUTHEAST_ASIA_LANES: ShippingLane[] = [
+  {
+    id: 'sea-malacca-singapore',
+    name: 'Straits of Malacca & Singapore Lane',
+    code: 'SEA-MAL-01',
+    region: 'Southeast Asia',
+    type: 'Strait Chokepoint',
+    primaryPorts: ['Singapore (SGSIN)', 'Port Klang (MYPKG)', 'Tanjung Pelepas (MYTPP)', 'Malacca (MYMKZ)'],
+    transitDistanceNm: 520,
+    avgTransitDays: 1.8,
+    congestionStatus: 'Moderate',
+    draftLimitMeters: 25.0,
+    dominantVessels: 'Bangkokmax (1,200–1,900 TEU), Sub-Panamax (2,800 TEU), ULCS (24,000 TEU)',
+    dailyDensity: 850,
+    description: 'The world\'s premier container and energy artery linking the Indian Ocean to the South China Sea. Vital hub for feeder transshipment into ASEAN secondary and archipelagic ports.',
+    keyHazards: 'High traffic density at Philip Channel, shallow sandbars near One Fathom Bank, unpredictable squalls (Sumatras).',
+    currentRatesEstimate: '$480 - $650 / 20ft TEU',
+    activeFeederLoops: ['SIN-PKG-PEN Feeder Loop', 'MYTPP-SGSIN Shuttle', 'Belawan-Singapore Express']
+  },
+  {
+    id: 'sea-south-china-sea',
+    name: 'South China Sea Intra-ASEAN Trunk Lane',
+    code: 'SEA-SCS-02',
+    region: 'Southeast Asia',
+    type: 'Trunk Lane',
+    primaryPorts: ['Singapore (SGSIN)', 'Cai Mep (VNVCM)', 'Laem Chabang (THLCH)', 'Manila (PHMNL)'],
+    transitDistanceNm: 1350,
+    avgTransitDays: 3.2,
+    congestionStatus: 'Normal',
+    draftLimitMeters: 16.5,
+    dominantVessels: 'Sub-Panamax (2,800–4,500 TEU), Intermediate (6,000 TEU)',
+    dailyDensity: 620,
+    description: 'High-volume trunk corridor connecting the Singapore transshipment hub directly with expanding manufacturing centers in Vietnam, Thailand, and the Philippines.',
+    keyHazards: 'Northeast Monsoon swells (Nov-Feb), tropical storm and typhoon trajectories through the Luzon Strait.',
+    currentRatesEstimate: '$620 - $890 / 20ft TEU',
+    activeFeederLoops: ['ASEAN Trunk 1 Express', 'Vietnam-Singapore Direct Feeder', 'Thai-Manila Connector']
+  },
+  {
+    id: 'sea-java-sea-sunda',
+    name: 'Java Sea & Sunda Strait Archipelagic Lane',
+    code: 'SEA-JAV-03',
+    region: 'Southeast Asia',
+    type: 'Archipelagic Route',
+    primaryPorts: ['Tanjung Priok / Jakarta (IDJKT)', 'Tanjung Perak / Surabaya (IDSUB)', 'Belawan (IDBLW)', 'Makassar (IDMAK)'],
+    transitDistanceNm: 980,
+    avgTransitDays: 2.5,
+    congestionStatus: 'Heavy Congestion',
+    draftLimitMeters: 13.5,
+    dominantVessels: 'Feeder & Bangkokmax (900–1,850 TEU)',
+    dailyDensity: 410,
+    description: 'Indonesia\'s domestic backbone linking Java industrial heartland with Sumatra, Kalimantan, and Eastern Indonesia through Sunda and Lombok passages.',
+    keyHazards: 'Strong inter-island tidal currents, limited deep-water turning basins at secondary river terminals, frequent customs dwell times.',
+    currentRatesEstimate: '$540 - $720 / 20ft TEU',
+    activeFeederLoops: ['Java-Sumatra Domestic Loop', 'Jakarta-Surabaya Coastal Shuttle', 'Eastern Archipelago Express']
+  },
+  {
+    id: 'sea-gulf-of-thailand-mekong',
+    name: 'Gulf of Thailand & Greater Mekong Feeder Lane',
+    code: 'SEA-MEK-04',
+    region: 'Southeast Asia',
+    type: 'Feeder Corridor',
+    primaryPorts: ['Laem Chabang (THLCH)', 'Bangkok / Klong Toey (THBKK)', 'Ho Chi Minh / Cat Lai (VNSGN)', 'Phnom Penh (KHPNH)'],
+    transitDistanceNm: 640,
+    avgTransitDays: 1.8,
+    congestionStatus: 'Normal',
+    draftLimitMeters: 11.0,
+    dominantVessels: 'Bangkokmax (1,200–1,750 TEU, max 172m LOA)',
+    dailyDensity: 290,
+    description: 'High-frequency feeder network transporting automotive parts, electronics, and agricultural exports connecting Thailand and the Mekong Delta to mainline transshipment loops.',
+    keyHazards: 'Chao Phraya river sandbar draft limitations (max 8.5m at low tide), length overall (LOA) limits at inner Bangkok terminals.',
+    currentRatesEstimate: '$410 - $580 / 20ft TEU',
+    activeFeederLoops: ['Mekong-Thai Feeder Line', 'Chao Phraya River Express', 'Cat Lai Transshipment Relay']
+  },
+  {
+    id: 'sea-bay-of-bengal-andaman',
+    name: 'Bay of Bengal & Andaman Sea Feeder Lane',
+    code: 'SEA-AND-05',
+    region: 'Southeast Asia',
+    type: 'Feeder Corridor',
+    primaryPorts: ['Port Klang (MYPKG)', 'Penang (MYPEN)', 'Yangon (MMRGN)', 'Chittagong (BDCGP)'],
+    transitDistanceNm: 1120,
+    avgTransitDays: 3.5,
+    congestionStatus: 'Moderate',
+    draftLimitMeters: 10.5,
+    dominantVessels: 'Geared Feeders (1,000–2,200 TEU with onboard cranes)',
+    dailyDensity: 180,
+    description: 'Western feeder corridor connecting Myanmar, Bangladesh, and Northern Peninsular Malaysia down to the Malacca Strait hubs. Relies heavily on self-sustaining geared tonnage.',
+    keyHazards: 'Southwest Monsoon tropical depressions, cyclone vulnerability (May & Oct/Nov), pilotage queues and shifting riverbanks at Yangon.',
+    currentRatesEstimate: '$520 - $780 / 20ft TEU',
+    activeFeederLoops: ['Andaman Feeder Express', 'Yangon-Port Klang Shuttle', 'Penang Direct Connector']
+  },
+  {
+    id: 'sea-sulu-celebes-bimp-eaga',
+    name: 'Sulu & Celebes Seas (BIMP-EAGA) Route',
+    code: 'SEA-SUL-06',
+    region: 'Southeast Asia',
+    type: 'Archipelagic Route',
+    primaryPorts: ['Davao (PHDVO)', 'General Santos (PHGES)', 'Bitung (IDBIT)', 'Sandakan (MYSKD)', 'Muara (BNMUA)'],
+    transitDistanceNm: 860,
+    avgTransitDays: 2.2,
+    congestionStatus: 'Normal',
+    draftLimitMeters: 12.0,
+    dominantVessels: 'Compact Feeders (500–1,200 TEU)',
+    dailyDensity: 95,
+    description: 'Sub-regional archipelagic trade route supporting the East ASEAN Growth Area, transporting timber, minerals, tropical fruits, and agro-commodities across southern Philippines, Sabah, and northern Sulawesi.',
+    keyHazards: 'Archipelagic coral reefs, maritime transit coordination corridors, localized squalls during monsoon transitions.',
+    currentRatesEstimate: '$390 - $540 / 20ft TEU',
+    activeFeederLoops: ['Davao-Bitung Feeder Shuttle', 'Sabah-Mindanao Coastal Line', 'Brunei Trans-Borneo Link']
+  }
+];
