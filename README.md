@@ -88,3 +88,5 @@ NODE_ENV=production npm start
 - **System Diagnostics:** Click **Diagnostic** in the top-right header to run a live 3-phase check across Gemini LLM, 3072-dim Embeddings, and Zilliz Cloud collections.
 - **Scenario Planning:** Open the **Scenario Planning** tab in the sidebar to launch the standalone 8-slider planning engine in a new tab (or preview it inline).
 - **Ref Fleet:** Open the **Ref Fleet** tab in the sidebar to launch external reference Streamlit dashboards (`Fleet Management Dashboard` and `SAIL Reference Dashboard`) in new tabs.
+
+Copyright (c) 2026 Goh Choon Kwang. All rights reserved. Submitted for GECO Asia C59 AI Innovation Sprint evaluation only. No license is granted for commercial use, modification, or redistribution without prior written consent." It’s standard professional practice, doesn't come across as defensive, and establishes a clear paper trail of your background IP.
